@@ -12,6 +12,10 @@ let package = Package(
         .library(
             name: "NWWebSocket",
             targets: ["NWWebSocket"]),
+        .library(
+            name: "NWWebSocket-Dynamic",
+            type: .dynamic,
+            targets: ["NWWebSocket"]),
     ],
     dependencies: [],
     targets: [
